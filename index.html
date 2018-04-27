@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <title>Document</title>
 
@@ -16,18 +17,40 @@
     
 </head>
 <body>
-    <div class="container">
-        <div id="gamingButtons"> </div>
+    <style>
+        body {
+            font-family: 'Slackey', cursive;
+            color: orangered;
+            font-size: 20px;
+            background-image: url("assets/images/background.jpeg");
+        }
 
+        .jumbotron {
+            background-image: url("assets/images/jumbotronimage.png");
+            background-size: cover;
+            background-position: right;
+            opacity: .85;
+        }
+
+
+    </style>
+
+<div class="container">
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1> Gaming Gifs On Demand</h1>
+        </div>
+    </div>
+
+    <div id="gamingButtons"> </div>
         <form id="gamingForm">
             <label: for="gaming-input"> Add a Game </label>
             <input type="text" id="gaming-input"><br>
-
             <input id="addGame" type="submit" value="submit">
         </form>
-
-        <div id="games">
-    </div>
+    <div id="games">
+</div>
     
     <script>
 
