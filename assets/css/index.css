@@ -1,0 +1,23 @@
+body {
+    font-family: 'Slackey', cursive;
+    color: orangered;
+    font-size: 20px;
+    background-image: url("../images/background.jpeg");
+}
+
+.jumbotron {
+    background-image: url("../images/jumbotronimage.png");
+    background-size: cover;
+    background-position: right;
+    opacity: .85;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gifs {
+    margin: 5px;
+}
